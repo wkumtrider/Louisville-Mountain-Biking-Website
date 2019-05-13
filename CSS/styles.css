@@ -1,0 +1,106 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+    
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* --- Navigations --- */
+
+.name {
+  margin: 0;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px
+  display: block;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-header {
+    text-align: center
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background: #3acec2;
+    padding: 1em 0;
+    overflow: hidden;
+}
+
+.main-footer {
+  text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+/* ---- Page Elements ---- */
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px ) {
+  .wrap {
+    min-height: calc(100vh - 89px);
+ }
+    .container {
+    width: 70%
+    max-width: 1000px;
+    margin 0 auto;
+ }
+ .name,
+ .main-nav li {
+    display: inline-block;
+ }
+
+ .name {
+  width: 240px;
+   
+ }
+
+ .main-nav li {
+  margin-right: 7px;
+ }
+
+
+ }
+
+.feat-img {
+ width: 300px;
+ float: left;
+ margin-top: 5px;
+ margin-right: 25px;
+ margin-bottom: 10px;
+ padding: 10px;
+ border: solid 1px red
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+}
