@@ -13,22 +13,21 @@ body {
 
 a { 
 	color: #fff;
-	text-decoration: none;
+  text-decoration: none;
+  
 }
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
+/* Base Layout Styles*/
 /* --- Navigations --- */
 
 .name {
-  margin: 0;
+  margin: 1;
 }
 
 .name a,
 .main-nav a {
-  padding: 10px 15px
-  display: block;
+  padding: 10px 15px;
+  display: flex;
 }
 
 /* ---- Layout Containers ---- */
@@ -42,7 +41,7 @@ a {
     text-align: center
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    background: #3acec2;
+    background: #f06f29;
     padding: 1em 0;
     overflow: hidden;
 }
@@ -55,9 +54,7 @@ a {
 
 /* ---- Page Elements ---- */
 
-/* ================================= 
-  Media Queries
-==================================== */
+/* Media Queries */
 
 @media (min-width: 769px ) {
   .wrap {
@@ -65,7 +62,7 @@ a {
  }
     .container {
     width: 70%
-    max-width: 1000px;
+    max-width 1000px;
     margin 0 auto;
  }
  .name,
@@ -74,7 +71,7 @@ a {
  }
 
  .name {
-  width: 240px;
+  width: 791px;
    
  }
 
@@ -82,12 +79,8 @@ a {
   margin-right: 7px;
  }
 
-
-
-
 .feat-img {
  width: 300px;
- float: left;
  margin-top: 5px;
  margin-right: 25px;
  margin-bottom: 10px;
@@ -96,8 +89,9 @@ a {
 }
 
 .main-img {
-  width: 200px;
+  width: 900px;
   margin-top: 5px;
+  margin-left: 10px;
 }
 
 .clearfix::after {
