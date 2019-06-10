@@ -16,19 +16,19 @@ a {
 }
 
 /* Base Layout Styles*/
-/* --- Navigations --- */
 
 .name {
   margin: 1;
 }
 
 .name a,
-.main-nav a {
+.main-nav {
   padding: 10px 15px;
   display: block;
+  color: white;
 }
 
-/* ---- Layout Containers ---- */
+/* Layout Containers */
 
 .container {
     padding-left: 1em;
