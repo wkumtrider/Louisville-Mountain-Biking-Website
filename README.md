@@ -1,2 +1,2 @@
-# finalproject
-Simple project to help me learn the basics of HTML, CSS, and Javascript.  
+# <code>Louisville Project
+Simple website project to help me learn the basics of HTML, CSS, and Javascript.
