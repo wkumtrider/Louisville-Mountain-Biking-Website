@@ -1,11 +1,19 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function trails() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function shops() {
+  document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+function breweries() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
+window.onmouseout = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
