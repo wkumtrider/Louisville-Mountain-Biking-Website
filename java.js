@@ -10,7 +10,7 @@ function shops() {
 
 function breweries() {
   document.getElementById("myDropdown2").classList.toggle("show");
-}
+} 
 
 // Close the dropdown if the user clicks outside of it
 
